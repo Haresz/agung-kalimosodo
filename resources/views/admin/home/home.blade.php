@@ -12,17 +12,17 @@
         <div class="card-img-overlay title">
           <h5 class="card-title ">AGUNG KALIMOSODO</h5>
           <p class="card-text">
-            <a href="/Seatings">Seating</a>
-            <a href="/Tabels">Tabels</a>
-            <a href="/Cabinets">Cabinets</a>
-            <a href="/Bedrooms">Bedroom</a>
-            <a href="/Mirrors">Mirrors</a>
-            <a href="/Lighting">Lighting</a>
-            <a href="/Rugs">Rugs</a>
-            <a href="/Swatches">Swatches</a>
+            <a href="/admin/Seatings">Seating</a>
+            <a href="/admin/Tabels">Tabels</a>
+            <a href="/admin/Cabinets">Cabinets</a>
+            <a href="/admin/Bedrooms">Bedroom</a>
+            <a href="/admin/Mirrors">Mirrors</a>
+            <a href="/admin/Lighting">Lighting</a>
+            <a href="/admin/Rugs">Rugs</a>
+            <a href="/admin/Swatches">Swatches</a>
           </p>
           <p class="card-text"><img src="{{ "$logo" }}" width="150px" margin="20px"></p>
-          <div class="button all"  ><a href="/Seatings">ALL PRODUCT</a></div>
+          <div class="button all"  ><a href="/a/Seatings">ALL PRODUCT</a></div>
         </div>
      </div>
      <div class="conten1">
@@ -62,14 +62,14 @@
      <div class="conten4">
        <h1>Our Product</h1>
        <div class="grid2">
-        <div class="kotak1 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
-        <div class="kotak2 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
-        <div class="kotak3 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
-        <div class="kotak4 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
-        <div class="kotak5 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
-        <div class="kotak6 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
-        <div class="kotak7 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
-        <div class="kotak8 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
+        <div class="kotak1 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<p><a href="" >delet</a> | <a href="">edite</a></p><button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
+        <div class="kotak2 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<p><a href="" >delet</a> | <a href="">edite</a></p><button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
+        <div class="kotak3 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<p><a href="" >delet</a> | <a href="">edite</a></p><button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
+        <div class="kotak4 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<p><a href="" >delet</a> | <a href="">edite</a></p><button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
+        <div class="kotak5 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<p><a href="" >delet</a> | <a href="">edite</a></p><button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
+        <div class="kotak6 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<p><a href="" >delet</a> | <a href="">edite</a></p><button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
+        <div class="kotak7 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<p><a href="" >delet</a> | <a href="">edite</a></p><button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
+        <div class="kotak8 item2"><img src="{{ "$conten" }}" alt="" width="250px"><div class="link"></div>name<p><a href="" >delet</a> | <a href="">edite</a></p><button type="button" class="buttonM"><a href="/Item">Read More</a></button></div>
        </div>
      </div>
      <div class="conten5">

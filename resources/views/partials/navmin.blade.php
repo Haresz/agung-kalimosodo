@@ -9,20 +9,20 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="logo">
-            <a href="/">
+            <a href="/home">
                 <img src="{{ "$logo" }}" width="40px">
             </a>
           <h5>Agung Kalimosodo</h5>
         </div>
         <div class="link">
-          <a href="/Seatings">Seating</a>
-          <a href="/Tabels">Tabels</a>
-          <a href="/Cabinets">Cabinets</a>
-          <a href="/Bedrooms">Bedroom</a>
-          <a href="/Mirrors">Mirrors</a>
-          <a href="/Lightings">Lighting</a>
-          <a href="/Rugs">Rugs</a>
-          <a href="/Swatches">Swatches</a>
+          <a href="/a/Seatings">Seating</a>
+          <a href="/a/Tabels">Tabels</a>
+          <a href="/a/Cabinets">Cabinets</a>
+          <a href="/a/Bedrooms">Bedroom</a>
+          <a href="/a/Mirrors">Mirrors</a>
+          <a href="/a/Lightings">Lighting</a>
+          <a href="/a/Rugs">Rugs</a>
+          <a href="/a/Swatches">Swatches</a>
         </div>
       </nav>
       <div class="container mt-4">

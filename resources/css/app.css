@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-img{
+    height: 720px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h5{
+    margin-top: 6%;
+    margin-bottom: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 500%;
+}
+
+.card-text{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 6%;
+}
+
+.card-text a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.card-text a:hover{
+    color: gold;
+}
+
+/* button */
+.button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #ffff;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.button:hover{
+    background-color: rgb(71, 71, 71);
+}
+
+/* gallery */
+.conten1{
+    display: flex;
+
+}
+
+.conten1 .desc {
+    width: 50%;
+    margin: 12% 10%;
+}
+
+.desc h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+
+
+.conten1 .gallery{
+    width: 50%;
+    margin: 10% 8%;
+}
+
+.gallery img{
+    margin-bottom: 4px;
+}
+
+.conten2{
+    background-color: rgb(53, 52, 52);
+    color: gold ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.conten2 h1{
+    font-size: 54px ;
+    font-weight: bold;
+    color: rgb(219, 174, 60);
+    padding: 4% 0% ;
+}
+
+.conten2 p{
+    padding: 0 10% 2% 10% ;
+    color: #eeee;
+}
+
+.conten2 img{
+    padding-bottom: 3% ;
+}
+
+.conten2 h4{
+    padding-bottom: 4%;
+}
+
+.conten3{
+    background-image: url("img/bg5.png") ;
+    background-size: cover;
+    margin-top: -1%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+            grid-template-areas:
+            'kotak1 kotak2'
+            'kotak3 kotak4'
+            'kotak5 kotak6';
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+ .item{
+    border: 2px solid #eeee ;
+}
+
+.kotak1{grid-area: kotak1 ;}
+.kotak2{grid-area: kotak2 ;}
+.kotak3{grid-area: kotak3 ;}
+.kotak4{grid-area: kotak4 ;}
+.kotak5{grid-area: kotak5 ;}
+.kotak6{grid-area: kotak6 ;}
+.kotak7{grid-area: kotak7 ;}
+.kotak8{grid-area: kotak8 ;}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+            grid-template-areas:
+            'kotak1 kotak2 kotak3 kotak4'
+            'kotak5 kotak6 kotak7 kotak8';
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.item2{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.btn{
+    width: 100px;
+    margin: 10px auto 20px auto;
+}
+
+.conten4 h1{
+    font-size: 54px ;
+    font-weight: bold;
+    color: rgb(219, 174, 60);
+    margin: 10px;
+    text-align: center;
+}
+
+.conten4 a{
+    text-decoration: none;
+    font-style: italic;
+    color: rgba(102, 102, 102, 0.7);
+    display: inline;
+}
+
+
+.conten5{
+    background-color: #eeee;
+}
+.conten5 h2{
+    /* font-size: 54px ; */
+    font-weight: bold;
+    color: rgb(219, 174, 60);
+    margin: 0 20px;
+    text-align: center;
+    padding: 40px 0 ;
+}
+
+.conten6{
+    background-color:  rgba(146, 144, 144, 0.933) ;
+}
+
+.item3{
+    color: rgba(204, 204, 204, 0.933);
+}
+
+.conten6  h3{
+    font-weight: bold;
+    color: rgb(219, 174, 60);
+    margin: 0 20px;
+    text-align: center;
+    padding: 40px 0 ;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+
+.conten6 .ket{
+    display: flex;
+}
+
+.conten6 li{
+    display: flex;
+}
+
+.conten6 li:nth-child(1){
+    margin-top: 20px;
+}
+
+li p{
+    margin-left: 10px;
+}
+
+iframe{
+    margin-left: 80px;
+    margin-bottom: 120px;
+}
+
+.conten7{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px 0 4px 0 ;
+}
+
+/* Navbar */
+nav{
+    background-color: rgb(41, 41, 41);
+}
+
+.logo{
+    display: flex;
+    margin-left: 5%;
+}
+
+.logo h5{
+    margin: 5px;
+    font-family: 'Sansita Swashed', cursive;
+    color: gold;
+}
+
+.link{
+    margin-left: 28%;
+}
+
+.link a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+/* seating */
+
+.grdset{
+    margin-left: 6% ;
+}
+
