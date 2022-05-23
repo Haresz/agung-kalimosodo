@@ -106,7 +106,7 @@ Route::get('/Item', function () {
 // admin
 
 Route::get('/admin/Bedrooms', function () {
-    return view('admin/Bedrooms/Bedrooms', [
+    return view('admin/bedrooms', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png",
@@ -114,8 +114,8 @@ Route::get('/admin/Bedrooms', function () {
     ]);
 });
 
-Route::get('/a/Cabinets', function () {
-    return view('admin/Cabinets', [
+Route::get('/admin/Cabinets', function () {
+    return view('admin/cabinets', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png",
@@ -123,8 +123,8 @@ Route::get('/a/Cabinets', function () {
     ]);
 });
 
-Route::get('/a/Lightings', function () {
-    return view('admin/Lightings', [
+Route::get('/admin/Lightings', function () {
+    return view('admin/lightings', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png",
@@ -132,8 +132,8 @@ Route::get('/a/Lightings', function () {
     ]);
 });
 
-Route::get('/a/Mirrors', function () {
-    return view('admin/Mirrors', [
+Route::get('/admin/Mirrors', function () {
+    return view('admin/mirrors', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png",
@@ -141,8 +141,8 @@ Route::get('/a/Mirrors', function () {
     ]);
 });
 
-Route::get('/a/Rugs', function () {
-    return view('admin/Rugs', [
+Route::get('/admin/Rugs', function () {
+    return view('admin/sugs', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png",
@@ -150,8 +150,8 @@ Route::get('/a/Rugs', function () {
     ]);
 });
 
-Route::get('/a/Seatings', function () {
-    return view('admin/Seatings', [
+Route::get('/admin/Seatings', function () {
+    return view('admin/seatings', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png",
@@ -159,8 +159,8 @@ Route::get('/a/Seatings', function () {
     ]);
 });
 
-Route::get('/a/Swatches', function () {
-    return view('admin/Swatches', [
+Route::get('/admin/Swatches', function () {
+    return view('admin/swatches', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png",
@@ -168,8 +168,8 @@ Route::get('/a/Swatches', function () {
     ]);
 });
 
-Route::get('/a/Tabels', function () {
-    return view('admin/Tabels', [
+Route::get('/admin/Tabels', function () {
+    return view('admin/tabels', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png",
@@ -177,7 +177,7 @@ Route::get('/a/Tabels', function () {
     ]);
 });
 
-Route::get('/a/Item', function () {
+Route::get('/admin/Item', function () {
     return view('Item', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
@@ -187,7 +187,7 @@ Route::get('/a/Item', function () {
     ]);
 });
 
-Route::get('/Admin', function () {
+Route::get('/admindmin', function () {
     return view('admin/login', [
         "logo" => "img/logo.png",
         "title" => "login"
@@ -195,7 +195,7 @@ Route::get('/Admin', function () {
 });
 
 Route::get('/home', function () {
-    return view('admin/home/home', [
+    return view('admin/home', [
         "bg" => "img/bg.png",
         "logo" => "img/logo.png",
         "conten" => "img/conten.png"

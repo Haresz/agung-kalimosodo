@@ -15,14 +15,14 @@
           <h5>Agung Kalimosodo</h5>
         </div>
         <div class="link">
-          <a href="/a/Seatings">Seating</a>
-          <a href="/a/Tabels">Tabels</a>
-          <a href="/a/Cabinets">Cabinets</a>
-          <a href="/a/Bedrooms">Bedroom</a>
-          <a href="/a/Mirrors">Mirrors</a>
-          <a href="/a/Lightings">Lighting</a>
-          <a href="/a/Rugs">Rugs</a>
-          <a href="/a/Swatches">Swatches</a>
+          <a href="/admin/Seatings">Seating</a>
+          <a href="/admin/Tabels">Tabels</a>
+          <a href="/admin/Cabinets">Cabinets</a>
+          <a href="/admin/Bedrooms">Bedroom</a>
+          <a href="/admin/Mirrors">Mirrors</a>
+          <a href="/admin/Lightings">Lighting</a>
+          <a href="/admin/Rugs">Rugs</a>
+          <a href="/admin/Swatches">Swatches</a>
         </div>
       </nav>
       <div class="container mt-4">
